@@ -1,0 +1,714 @@
+GFORTRAN module version '6' created from pthread.f90 on Thu Jul 12 07:55:07 2012
+MD5:2ec6d81fbb7e62429be9609d897495f4 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () () ()
+() () ())
+
+()
+
+()
+
+()
+
+()
+
+()
+
+(2 'pthread_atfork' 'pthreads' 'pthread_atfork' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 3 0 (4 5 6) () 2 () () () 0 0)
+7 'pthread_attr_destroy' 'pthreads' 'pthread_attr_destroy' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 8 0 (9) () 7 () () ()
+0 0)
+10 'pthread_attr_getdetachstate' 'pthreads' 'pthread_attr_getdetachstate'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 11 0 (12 13)
+() 10 () () () 0 0)
+14 'pthread_attr_getinheritsched' 'pthreads'
+'pthread_attr_getinheritsched' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1
+0 INTEGER ()) 15 0 (16 17) () 14 () () () 0 0)
+18 'pthread_attr_getschedparam' 'pthreads' 'pthread_attr_getschedparam'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 19 0 (20 21)
+() 18 () () () 0 0)
+22 'pthread_attr_getschedpolicy' 'pthreads' 'pthread_attr_getschedpolicy'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 23 0 (24 25)
+() 22 () () () 0 0)
+26 'pthread_attr_getscope' 'pthreads' 'pthread_attr_getscope' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 27 0 (28 29) () 26 ()
+() () 0 0)
+30 'pthread_attr_getstackaddr' 'pthreads' 'pthread_attr_getstackaddr' 1
+((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 31 0 (32 33)
+() 30 () () () 0 0)
+34 'pthread_attr_getstacksize' 'pthreads' 'pthread_attr_getstacksize' 1
+((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 35 0 (36 37)
+() 34 () () () 0 0)
+38 'pthread_attr_init' 'pthreads' 'pthread_attr_init' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 39 0 (40) () 38 () () () 0 0)
+41 'pthread_attr_setdetachstate' 'pthreads' 'pthread_attr_setdetachstate'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 42 0 (43 44)
+() 41 () () () 0 0)
+45 'pthread_attr_setinheritsched' 'pthreads'
+'pthread_attr_setinheritsched' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1
+0 INTEGER ()) 46 0 (47 48) () 45 () () () 0 0)
+49 'pthread_attr_setschedparam' 'pthreads' 'pthread_attr_setschedparam'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 50 0 (51 52)
+() 49 () () () 0 0)
+53 'pthread_attr_setschedpolicy' 'pthreads' 'pthread_attr_setschedpolicy'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 54 0 (55 56)
+() 53 () () () 0 0)
+57 'pthread_attr_setscope' 'pthreads' 'pthread_attr_setscope' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 58 0 (59 60) () 57 ()
+() () 0 0)
+61 'pthread_attr_setstackaddr' 'pthreads' 'pthread_attr_setstackaddr' 1
+((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 62 0 (63 64)
+() 61 () () () 0 0)
+65 'pthread_attr_setstacksize' 'pthreads' 'pthread_attr_setstacksize' 1
+((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 66 0 (67 68)
+() 65 () () () 0 0)
+69 'pthread_cancel' 'pthreads' 'pthread_cancel' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 70 0 (71) () 69 () () () 0 0)
+72 'pthread_cancel_asynchronous' 'pthreads' 'pthread_cancel_asynchronous'
+1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'3') () 0 () () () 0 0)
+73 'pthread_cancel_deferred' 'pthreads' 'pthread_cancel_deferred' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'2') () 0 () () () 0 0)
+74 'pthread_cancel_disable' 'pthreads' 'pthread_cancel_disable' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+75 'pthread_cancel_enable' 'pthreads' 'pthread_cancel_enable' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'0') () 0 () () () 0 0)
+76 'pthread_canceled' 'pthreads' 'pthread_canceled' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+77 'pthread_cleanup_pop' 'pthreads' 'pthread_cleanup_pop' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 78 0 (79) () 77 () () () 0 0)
+80 'pthread_cleanup_push' 'pthreads' 'pthread_cleanup_push' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 81 0 (82 83) () 80 ()
+() () 0 0)
+84 'pthread_cond_broadcast' 'pthreads' 'pthread_cond_broadcast' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 85 0 (86) () 84 () ()
+() 0 0)
+87 'pthread_cond_destroy' 'pthreads' 'pthread_cond_destroy' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 88 0 (89) () 87 () ()
+() 0 0)
+90 'pthread_cond_init' 'pthreads' 'pthread_cond_init' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 91 0 (92 93) () 90 () () () 0 0)
+94 'pthread_cond_signal' 'pthreads' 'pthread_cond_signal' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 95 0 (96) () 94 () () () 0 0)
+97 'pthread_cond_timedwait' 'pthreads' 'pthread_cond_timedwait' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 98 0 (99 100 101) ()
+97 () () () 0 0)
+102 'pthread_cond_wait' 'pthreads' 'pthread_cond_wait' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 103 0 (104 105) () 102 () () ()
+0 0)
+106 'pthread_condattr_destroy' 'pthreads' 'pthread_condattr_destroy' 1 (
+(PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 107 0 (108) () 106 ()
+() () 0 0)
+109 'pthread_condattr_getpshared' 'pthreads' 'pthread_condattr_getpshared'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 110 0 (111
+112) () 109 () () () 0 0)
+113 'pthread_condattr_init' 'pthreads' 'pthread_condattr_init' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 114 0 (115) () 113 ()
+() () 0 0)
+116 'pthread_condattr_setpshared' 'pthreads' 'pthread_condattr_setpshared'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 117 0 (118
+119) () 116 () () () 0 0)
+120 'pthread_create' 'pthreads' 'pthread_create' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 121 0 (122 123 124 125) () 120
+() () () 0 0)
+126 'pthread_create_detached' 'pthreads' 'pthread_create_detached' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'0') () 0 () () () 0 0)
+127 'pthread_create_joinable' 'pthreads' 'pthread_create_joinable' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+128 'pthread_detach' 'pthreads' 'pthread_detach' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 129 0 (130) () 128 () () () 0 0)
+131 'pthread_equal' 'pthreads' 'pthread_equal' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 132 0 (133 134) () 131 () () ()
+0 0)
+135 'pthread_exit' 'pthreads' 'pthread_exit' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL SUBROUTINE
+IS_BIND_C IS_C_INTEROP) (UNKNOWN 0 1 0 UNKNOWN ()) 136 0 (137) () 0 () ()
+() 0 0)
+138 'pthread_explicit_sched' 'pthreads' 'pthread_explicit_sched' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+139 'pthread_getschedparam' 'pthreads' 'pthread_getschedparam' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 140 0 (141 142 143) ()
+139 () () () 0 0)
+144 'pthread_getspecific' 'pthreads' 'pthread_getspecific' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 145 0 (146) () 144 ()
+() () 0 0)
+147 'pthread_inherit_sched' 'pthreads' 'pthread_inherit_sched' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'0') () 0 () () () 0 0)
+148 'pthread_join' 'pthreads' 'pthread_join' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 149 0 (150 151) () 148 () () ()
+0 0)
+152 'pthread_key_create' 'pthreads' 'pthread_key_create' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 153 0 (154 155) () 152 () () ()
+0 0)
+156 'pthread_key_delete' 'pthreads' 'pthread_key_delete' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 157 0 (158) () 156 () () () 0 0)
+159 'pthread_key_t' 'pthreads' '' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 IS_BIND_C PRIVATE_COMP) (UNKNOWN 0 1 0
+UNKNOWN ()) 0 0 () () 0 ((160 'secret' (INTEGER 4 1 0 INTEGER ()) (1 0
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '2')) (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION) UNKNOWN-ACCESS ())) PRIVATE (() () () ())
+() 0 0 83827369)
+161 'pthread_kill' 'pthreads' 'pthread_kill' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 162 0 (163 164) () 161 () () ()
+0 0)
+165 'pthread_mutex_destroy' 'pthreads' 'pthread_mutex_destroy' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 166 0 (167) () 165 ()
+() () 0 0)
+168 'pthread_mutex_init' 'pthreads' 'pthread_mutex_init' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 169 0 (170 171) () 168 () () ()
+0 0)
+172 'pthread_mutex_lock' 'pthreads' 'pthread_mutex_lock' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 173 0 (174) () 172 () () () 0 0)
+175 'pthread_mutex_trylock' 'pthreads' 'pthread_mutex_trylock' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 176 0 (177) () 175 ()
+() () 0 0)
+178 'pthread_mutex_unlock' 'pthreads' 'pthread_mutex_unlock' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 179 0 (180) () 178 ()
+() () 0 0)
+181 'pthread_mutexattr_destroy' 'pthreads' 'pthread_mutexattr_destroy' 1
+((PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL
+FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 182 0 (183)
+() 181 () () () 0 0)
+184 'pthread_mutexattr_getprioceiling' 'pthreads'
+'pthread_mutexattr_getprioceiling' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (
+INTEGER 4 1 0 INTEGER ()) 185 0 (186 187) () 184 () () () 0 0)
+188 'pthread_mutexattr_getprotocol' 'pthreads'
+'pthread_mutexattr_getprotocol' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1
+0 INTEGER ()) 189 0 (190 191) () 188 () () () 0 0)
+192 'pthread_mutexattr_getpshared' 'pthreads'
+'pthread_mutexattr_getpshared' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1
+0 INTEGER ()) 193 0 (194 195) () 192 () () () 0 0)
+196 'pthread_mutexattr_init' 'pthreads' 'pthread_mutexattr_init' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 197 0 (198) () 196 ()
+() () 0 0)
+199 'pthread_mutexattr_setprioceiling' 'pthreads'
+'pthread_mutexattr_setprioceiling' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (
+INTEGER 4 1 0 INTEGER ()) 200 0 (201 202) () 199 () () () 0 0)
+203 'pthread_mutexattr_setprotocol' 'pthreads'
+'pthread_mutexattr_setprotocol' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1
+0 INTEGER ()) 204 0 (205 206) () 203 () () () 0 0)
+207 'pthread_mutexattr_setpshared' 'pthreads'
+'pthread_mutexattr_setpshared' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C IS_C_INTEROP) (INTEGER 4 1
+0 INTEGER ()) 208 0 (209 210) () 207 () () () 0 0)
+211 'pthread_once' 'pthreads' 'pthread_once' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 212 0 (213 214) () 211 () () ()
+0 0)
+215 'pthread_prio_inherit' 'pthreads' 'pthread_prio_inherit' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'0') () 0 () () () 0 0)
+216 'pthread_prio_none' 'pthreads' 'pthread_prio_none' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+217 'pthread_prio_protect' 'pthreads' 'pthread_prio_protect' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+218 'pthread_process_private' 'pthreads' 'pthread_process_private' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+219 'pthread_process_shared' 'pthreads' 'pthread_process_shared' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'0') () 0 () () () 0 0)
+220 'pthread_scope_process' 'pthreads' 'pthread_scope_process' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+221 'pthread_scope_system' 'pthreads' 'pthread_scope_system' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'0') () 0 () () () 0 0)
+222 'pthread_self' 'pthreads' 'pthread_self' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (DERIVED 223 1 0 DERIVED ()) 224 0 () () 222 () () () 0 0)
+225 'pthread_setcancelstate' 'pthreads' 'pthread_setcancelstate' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 226 0 (227 228) ()
+225 () () () 0 0)
+229 'pthread_setcanceltype' 'pthreads' 'pthread_setcanceltype' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 230 0 (231 232) ()
+229 () () () 0 0)
+233 'pthread_setschedparam' 'pthreads' 'pthread_setschedparam' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 234 0 (235 236 237) ()
+233 () () () 0 0)
+238 'pthread_setspecific' 'pthreads' 'pthread_setspecific' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION
+IS_BIND_C IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 239 0 (240 241) ()
+238 () () () 0 0)
+242 'pthread_sigmask' 'pthreads' 'pthread_sigmask' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (INTEGER 4 1 0 INTEGER ()) 243 0 (244 245 246) () 242 () ()
+() 0 0)
+223 'pthread_t' 'pthreads' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 IS_BIND_C PRIVATE_COMP) (UNKNOWN 0 1 0 UNKNOWN ()) 0
+0 () () 0 ((247 'secret' (INTEGER 4 1 0 INTEGER ()) (1 0 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '2')) (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DIMENSION) UNKNOWN-ACCESS ())) PRIVATE (() () () ()) () 0 0
+29291401)
+248 'pthread_testcancel' 'pthreads' 'pthread_testcancel' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN 0 0 EXTERNAL FUNCTION IS_BIND_C
+IS_C_INTEROP) (DERIVED 223 1 0 DERIVED ()) 249 0 () () 248 () () () 0 0)
+250 'pthreads_rcs_id' 'pthreads' 'pthreads_rcs_id' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '51'))) 0 0 () (
+CONSTANT (CHARACTER 1 0 0 CHARACTER (())) 0 51
+'$Id: pthread.f03 1.1 2005/03/24 17:10:07Z Dan Exp $') () 0 () () () 0 0)
+251 'sched_fifo' 'pthreads' 'sched_fifo' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+252 'sched_other' 'pthreads' 'sched_other' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+253 'sched_rr' 'pthreads' 'sched_rr' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+254 'size_t' 'pthreads' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 IS_BIND_C PRIVATE_COMP) (UNKNOWN 0 1 0 UNKNOWN ()) 0
+0 () () 0 ((255 'secret' (INTEGER 8 1 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()))
+PRIVATE (() () () ()) () 0 0 58601692)
+4 'prepare' '' 'prepare' 3 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 256 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+5 'parent' '' 'parent' 3 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 256 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+6 'child' '' 'child' 3 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 256 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+9 'attr' '' 'attr' 8 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+12 'attr' '' 'attr' 11 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+13 'detachstate' '' 'detachstate' 11 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+16 'attr' '' 'attr' 15 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+17 'inheritsched' '' 'inheritsched' 15 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+28 'attr' '' 'attr' 27 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+29 'param' '' 'param' 27 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+24 'attr' '' 'attr' 23 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+25 'policy' '' 'policy' 23 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+20 'attr' '' 'attr' 19 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+21 'param' '' 'param' 19 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+32 'attr' '' 'attr' 31 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+33 'stackaddr' '' 'stackaddr' 31 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+36 'attr' '' 'attr' 35 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+37 'stacksize' '' 'stacksize' 35 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+40 'attr' '' 'attr' 39 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+43 'attr' '' 'attr' 42 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+44 'detachstate' '' 'detachstate' 42 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ())
+0 0 () () 0 () () () 0 0)
+47 'attr' '' 'attr' 46 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+48 'inherit' '' 'inherit' 46 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+51 'attr' '' 'attr' 50 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+52 'param' '' 'param' 50 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0 () () ()
+0 0)
+55 'attr' '' 'attr' 54 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+56 'policy' '' 'policy' 54 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+59 'attr' '' 'attr' 58 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+60 'scope' '' 'scope' 58 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0 () () ()
+0 0)
+63 'attr' '' 'attr' 62 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+64 'stackaddr' '' 'stackaddr' 62 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+67 'attr' '' 'attr' 66 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+68 'stacksize' '' 'stacksize' 66 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 254 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+71 'thread' '' 'thread' 70 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+79 'execute' '' 'execute' 78 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+82 'routine' '' 'routine' 81 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 256 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+83 'arg' '' 'arg' 81 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+108 'attr' '' 'attr' 107 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+111 'attr' '' 'attr' 110 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+112 'pshared' '' 'pshared' 110 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+115 'attr' '' 'attr' 114 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+118 'attr' '' 'attr' 117 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+119 'pshared' '' 'pshared' 117 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+86 'cond' '' 'cond' 85 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+89 'cond' '' 'cond' 88 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+92 'cond' '' 'cond' 91 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+93 'attr' '' 'attr' 91 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+96 'cond' '' 'cond' 95 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+99 'cond' '' 'cond' 98 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+100 'mutex' '' 'mutex' 98 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+101 'abstime' '' 'abstime' 98 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+104 'cond' '' 'cond' 103 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+105 'mutex' '' 'mutex' 103 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+122 'thread' '' 'thread' 121 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+123 'attr' '' 'attr' 121 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+124 'start_routine' '' 'start_routine' 121 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 256 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+125 'arg' '' 'arg' 121 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+130 'thread' '' 'thread' 129 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+133 't1' '' 't1' 132 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+134 't2' '' 't2' 132 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+137 'value' '' 'value' 136 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+141 'thread' '' 'thread' 140 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+142 'policy' '' 'policy' 140 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+143 'param' '' 'param' 140 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+146 'key' '' 'key' 145 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+150 'thread' '' 'thread' 149 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+151 'value_ptr' '' 'value_ptr' 149 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0
+() () 0 () () () 0 0)
+154 'key' '' 'key' 153 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+155 'destructor' '' 'destructor' 153 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+158 'key' '' 'key' 157 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+163 'thread' '' 'thread' 162 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 223 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+164 'sig' '' 'sig' 162 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0 () () ()
+0 0)
+183 'attr' '' 'attr' 182 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+186 'attr' '' 'attr' 185 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+187 'prioceiling' '' 'prioceiling' 185 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+190 'attr' '' 'attr' 189 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+191 'protocol' '' 'protocol' 189 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+194 'attr' '' 'attr' 193 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+195 'pshared' '' 'pshared' 193 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+198 'attr' '' 'attr' 197 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+201 'attr' '' 'attr' 200 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+202 'prioceiling' '' 'prioceiling' 200 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ())
+0 0 () () 0 () () () 0 0)
+205 'attr' '' 'attr' 204 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+206 'protocol' '' 'protocol' 204 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+209 'attr' '' 'attr' 208 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+210 'pshared' '' 'pshared' 208 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+167 'mutex' '' 'mutex' 166 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+170 'mutex' '' 'mutex' 169 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+171 'attr' '' 'attr' 169 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+174 'mutex' '' 'mutex' 173 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+177 'mutex' '' 'mutex' 176 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+180 'mutex' '' 'mutex' 179 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+213 'once_block' '' 'once_block' 212 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+214 'init_routine' '' 'init_routine' 212 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ())
+0 0 () () 0 () () () 0 0)
+227 'state' '' 'state' 226 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+228 'oldstate' '' 'oldstate' 226 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+231 'type' '' 'type' 230 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0 () () ()
+0 0)
+232 'oldtype' '' 'oldtype' 230 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+235 'thread' '' 'thread' 234 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+236 'policy' '' 'policy' 234 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+237 'param' '' 'param' 234 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+240 'key' '' 'key' 239 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 159 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+241 'value' '' 'value' 239 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () ()
+0 () () () 0 0)
+244 'how' '' 'how' 243 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (INTEGER 4 1 0 INTEGER ()) 0 0 () () 0 () () ()
+0 0)
+245 'set' '' 'set' 243 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+246 'oset' '' 'oset' 243 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 VALUE DUMMY) (DERIVED 257 0 0 DERIVED ()) 0 0 () () 0 () ()
+() 0 0)
+257 'c_ptr' '__iso_c_binding' '' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 IS_BIND_C IS_C_INTEROP IS_ISO_C) (DERIVED 257 1 1
+UNKNOWN ()) 0 0 () () 0 ((258 '__c_ptr_c_address' (INTEGER 8 1 0 INTEGER
+()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ())) UNKNOWN-ACCESS () () 2 39 0)
+256 'c_funptr' '__iso_c_binding' '' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 IS_BIND_C IS_C_INTEROP IS_ISO_C) (
+DERIVED 256 1 1 UNKNOWN ()) 0 0 () () 0 ((259 '__c_funptr_c_address' (
+INTEGER 8 1 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ())) UNKNOWN-ACCESS () () 2 41 0)
+)
+
+('pthread_atfork' 0 2 'pthread_attr_destroy' 0 7
+'pthread_attr_getdetachstate' 0 10 'pthread_attr_getinheritsched' 0 14
+'pthread_attr_getschedparam' 0 18 'pthread_attr_getschedpolicy' 0 22
+'pthread_attr_getscope' 0 26 'pthread_attr_getstackaddr' 0 30
+'pthread_attr_getstacksize' 0 34 'pthread_attr_init' 0 38
+'pthread_attr_setdetachstate' 0 41 'pthread_attr_setinheritsched' 0 45
+'pthread_attr_setschedparam' 0 49 'pthread_attr_setschedpolicy' 0 53
+'pthread_attr_setscope' 0 57 'pthread_attr_setstackaddr' 0 61
+'pthread_attr_setstacksize' 0 65 'pthread_cancel' 0 69
+'pthread_cancel_asynchronous' 0 72 'pthread_cancel_deferred' 0 73
+'pthread_cancel_disable' 0 74 'pthread_cancel_enable' 0 75
+'pthread_canceled' 0 76 'pthread_cleanup_pop' 0 77 'pthread_cleanup_push'
+0 80 'pthread_cond_broadcast' 0 84 'pthread_cond_destroy' 0 87
+'pthread_cond_init' 0 90 'pthread_cond_signal' 0 94
+'pthread_cond_timedwait' 0 97 'pthread_cond_wait' 0 102
+'pthread_condattr_destroy' 0 106 'pthread_condattr_getpshared' 0 109
+'pthread_condattr_init' 0 113 'pthread_condattr_setpshared' 0 116
+'pthread_create' 0 120 'pthread_create_detached' 0 126
+'pthread_create_joinable' 0 127 'pthread_detach' 0 128 'pthread_equal' 0
+131 'pthread_exit' 0 135 'pthread_explicit_sched' 0 138
+'pthread_getschedparam' 0 139 'pthread_getspecific' 0 144
+'pthread_inherit_sched' 0 147 'pthread_join' 0 148 'pthread_key_create'
+0 152 'pthread_key_delete' 0 156 'pthread_key_t' 0 159 'pthread_kill' 0
+161 'pthread_mutex_destroy' 0 165 'pthread_mutex_init' 0 168
+'pthread_mutex_lock' 0 172 'pthread_mutex_trylock' 0 175
+'pthread_mutex_unlock' 0 178 'pthread_mutexattr_destroy' 0 181
+'pthread_mutexattr_getprioceiling' 0 184 'pthread_mutexattr_getprotocol'
+0 188 'pthread_mutexattr_getpshared' 0 192 'pthread_mutexattr_init' 0
+196 'pthread_mutexattr_setprioceiling' 0 199
+'pthread_mutexattr_setprotocol' 0 203 'pthread_mutexattr_setpshared' 0
+207 'pthread_once' 0 211 'pthread_prio_inherit' 0 215 'pthread_prio_none'
+0 216 'pthread_prio_protect' 0 217 'pthread_process_private' 0 218
+'pthread_process_shared' 0 219 'pthread_scope_process' 0 220
+'pthread_scope_system' 0 221 'pthread_self' 0 222 'pthread_setcancelstate'
+0 225 'pthread_setcanceltype' 0 229 'pthread_setschedparam' 0 233
+'pthread_setspecific' 0 238 'pthread_sigmask' 0 242 'pthread_t' 0 223
+'pthread_testcancel' 0 248 'pthreads_rcs_id' 0 250 'sched_fifo' 0 251
+'sched_other' 0 252 'sched_rr' 0 253 'size_t' 0 254)
